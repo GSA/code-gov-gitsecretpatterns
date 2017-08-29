@@ -1,0 +1,10 @@
+# More info on git-secrets providers here: https://github.com/awslabs/git-secrets#secret-providers
+
+# Cloud.gov manifest files
+ES_AUTH\s*:\s*(.+\s*.*):(.+\s*.*)$
+ES_HOST\s*:\s*(http|https)://(.+\s*.*):(.+\s*.*)@.+
+CLIENT_ID\s*:\s*[\w.]+
+CLIENT_SECRET\s*:\s*[\w.]+
+
+(password|PASSWORD)\s*(:|=)\s*.+
+
